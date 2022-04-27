@@ -1,2 +1,2 @@
 # home
-Brendan Morrell Graphic Designer
+https://bmgraphicx.github.io/home/
