@@ -50,14 +50,6 @@ body {
         background-color: #000;
 }
 
-h1 {
-        text-align: center;
-        color: #fff;
-        font-family: Titillium-Semibold;
-        font-size: 60px;
-        padding-top: 60px;
-}
-
 .nombre {
         font-family: OstrichSans-Black;
         font-size: 220px;
@@ -177,10 +169,12 @@ hr {
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         line-height: -1em;
-        font-size: 22px;
-        font-family: titillium-thin;
+        font-size: 40px;
+        font-family: titillium-regular;
+        color: #fff;
+        padding-top: 80px;
     }
 
     .contact {  
@@ -311,8 +305,28 @@ font-family: Titillium-Regular;
         justify-content: center;
         align-items: top;
         margin: 0px 5px 5px 5px;
-        filter: grayscale(0%);
+     /*   filter: grayscale(0%); */
         border-radius: 5px;
+}
+
+.hideone {
+        z-index: 10;
+        color: #000;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        transition: 0.5s;
+        background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.hideone:hover {
+       opacity: 1;
 }
 
 .item img:hover {
@@ -368,7 +382,7 @@ video   {
 
 h6      {
         font-family: Titillium-thin;
-        font-size: 20px;
+        font-size: 28px;
         color: #fff;
 }
 
@@ -401,7 +415,7 @@ h6      {
 
 .cont2 {
         font-family: Titillium-Regular;
-        font-size: 16px;
+        font-size: 20px;
         color: #fff;
         text-align: left;
         align-content: center;
