@@ -50,6 +50,27 @@ body {
         background-color: #000;
 }
 
+.Vid-backing {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: -10;
+        box-sizing: border-box;
+        overflow: hidden;
+}
+
+.Vid-backing video {
+        position: fixed;
+        width: auto;
+        height: auto;
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -50;
+}
+
 .nombre {
         font-family: OstrichSans-Black;
         font-size: 220px;
