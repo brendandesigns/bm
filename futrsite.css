@@ -135,7 +135,19 @@ hr {
 .introduction {
         display: flex;
         justify-content: center;
+        margin-top: 100px;
 }
+
+@media screen and (max-width: 780px){
+        .introduction{
+             margin: auto;
+        }
+
+        .left {
+                margin-top: 50px;
+        }
+}
+
 
 /*
     .video_watermark {
@@ -149,7 +161,7 @@ hr {
     }
 */
 
-    .mainimg {
+    .mainframe {
 
         display: flex;
         margin: auto;
@@ -192,7 +204,7 @@ hr {
         margin-top: 20px;
         margin-bottom: 30px;
         line-height: -1em;
-        font-size: 40px;
+        font-size: 45px;
         font-family: titillium-regular;
         color: #fff;
         padding-top: 80px;
@@ -204,6 +216,7 @@ hr {
     clear: both;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
     }
 
     .innerContent {
@@ -321,45 +334,63 @@ font-family: Titillium-Regular;
         margin-top: 30px;
 }
 
+.item {
+        overflow: hidden;
+        position: relative;
+}
+
 .item img   {
         width: 450px;
         justify-content: center;
         align-items: top;
-        margin: 0px 5px 5px 5px;
+        margin: 10px;
      /*   filter: grayscale(0%); */
-        border-radius: 5px;
+        
 }
 
 .hideone {
-        z-index: 10;
+        top: 0;
+        left: 0;
+        z-index: 5;
         color: #000;
-        font-size: 20px;
         display: flex;
+        position: absolute;
         justify-content: center;
-        position: relative;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        font-family: Titillium-thin;
         opacity: 0;
+        font-size: 18px;
         width: 100%;
         height: 100%;
-        align-items: center;
-        transition: 0.5s;
-        background-color: rgba(0, 0, 0, 0.8);
-
+        z-index: 1;
+        box-sizing: border-box;
+        overflow: hidden;
+        padding: 20px;
 }
 
 .hideone:hover {
        opacity: 1;
+       transition: 1s;
+       display: flex;
+       color: #fff;
+       justify-content: center;
+        align-items: center;
+       font-size: 25px;
+       margin: auto;
+       padding: 18px;
 }
 
 .item img:hover {
         cursor: pointer;
-        transition: 1s ease-in-out;
-        filter: grayscale(100%);
+        
 }
 
 .portcol1     {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        margin-top: -10px;
 }
 
 .portcol2     {
@@ -373,6 +404,7 @@ font-family: Titillium-Regular;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        margin-top: -15px;
       
 }
 
@@ -391,6 +423,7 @@ video   {
         .portcol1, .portcol2, .portcol3   {
                         display: flex;
                         flex-flow: row wrap;
+                        margin-top: 0;
                         }
 
         .item img   {
@@ -403,12 +436,13 @@ video   {
 
 h6      {
         font-family: Titillium-thin;
-        font-size: 28px;
+        font-size: 34px;
         color: #fff;
 }
 
 .skilled        {
         column-count: 2;
+     
 }
 
 .skilled li     {
@@ -420,7 +454,7 @@ h6      {
         display: flex;
         width: 70%;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 60px;
     }
 
 .cont {
@@ -430,18 +464,34 @@ h6      {
 }
 
 .cont img{
-        width: 320px;
+        width: 400px;
         margin: 25px 15px 15px 15px;
+        margin: auto;
 }
 
+@media screen and (max-width: 1300px){
+        .cont img  {   
+                max-width: 70%;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                margin-top: 50px;
+                }
+        }
+
 .cont2 {
-        font-family: Titillium-Regular;
-        font-size: 20px;
+        font-family: Titillium-thin;
+        font-size: 30px;
         color: #fff;
-        text-align: left;
+        text-align: center;
         align-content: center;
+        align-items: center;
         padding: 20px;
         border-radius: 5px;
+}
+
+.cont2 a:hover{
+        color: #BF872C;
 }
 
 @media screen and (max-width: 1300px){
@@ -467,6 +517,16 @@ h6      {
                 width: 90%;
     }
 }
+
+@media screen and (max-width: 780px){
+        .cont2  {   
+                font-size: 28px;
+        }
+
+        .skilled {
+                column-count: 1;
+        }
+        }
 
 
 
