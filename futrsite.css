@@ -532,9 +532,3 @@ h6      {
 
 
 /* CONTACT */
-
-form {
-        display: flex;
-        display: block;
-        justify-content: center;
-}
