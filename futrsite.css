@@ -520,12 +520,17 @@ h6      {
 
 @media screen and (max-width: 780px){
         .cont2  {   
-                font-size: 28px;
+                font-size: 20px;
         }
 
         .skilled {
                 column-count: 1;
         }
+
+        .nombre {
+                font-size: 80px;
+        }
+
         }
 
 
