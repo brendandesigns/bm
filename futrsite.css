@@ -204,10 +204,10 @@ hr {
         margin-top: 20px;
         margin-bottom: 30px;
         line-height: -1em;
-        font-size: 45px;
+        font-size: 35px;
         font-family: titillium-regular;
         color: #fff;
-        padding-top: 80px;
+        padding-top: 60px;
     }
 
     .contact {  
@@ -435,8 +435,8 @@ video   {
 /* ABOUT */
 
 h6      {
-        font-family: Titillium-thin;
-        font-size: 34px;
+        font-family: Titillium-Semibold;
+        font-size: 30px;
         color: #fff;
 }
 
@@ -454,7 +454,7 @@ h6      {
         display: flex;
         width: 70%;
         justify-content: center;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
 .cont {
@@ -471,7 +471,7 @@ h6      {
 
 @media screen and (max-width: 1300px){
         .cont img  {   
-                max-width: 70%;
+                max-width: 90%;
                 display: flex;
                 justify-content: center;
                 align-content: center;
@@ -520,7 +520,7 @@ h6      {
 
 @media screen and (max-width: 780px){
         .cont2  {   
-                font-size: 20px;
+                font-size: 18px;
         }
 
         .skilled {
@@ -531,9 +531,57 @@ h6      {
                 font-size: 80px;
         }
 
+        .graphic {
+                font-size: 30px;
         }
 
+        .digi {
+                font-size: 40px;
+                margin-top: 20px;
+        }
 
+        .art {
+                font-size: 70px;
+                margin-top: 10px;
+        }
 
+        .headersother ul {
+                text-align: center;
+            }
 
-/* CONTACT */
+        .headersother a {
+                text-decoration: none;
+                align-content: top;
+                font-size: 11px;
+                color: #fff;
+            }
+            
+        .headers li, .headersother li     {
+                display: inline-block;
+                padding: 5px;
+                font-family: Titillium-Regular;
+            }
+
+        h6      {
+                font-size: 18px;
+        }
+
+        .right {
+                display: none;
+        }
+        
+            
+            .contact a {
+            padding: 10px;
+            font-size: 18px;
+            
+                    }
+            
+            .contact li      {
+            padding: 10px;
+            font-family: Titillium-Regular;
+            
+            }
+        
+
+        }
