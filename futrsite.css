@@ -232,13 +232,11 @@ padding: 15px;
 font-size: 20px;
 margin: auto;
 text-align: center;
-
         }
 
 .contact li      {
 padding: 15px;
 font-family: Titillium-Regular;
-
 }
 
 .headers {  text-align: center;
@@ -326,6 +324,30 @@ font-family: Titillium-Regular;
 
         }
 
+        .skilled .line1 {
+                font-family: OstrichSans-black;
+                font-size: 80px;
+                
+        }
+
+        .skilled .line2 {
+                font-size: 225px;
+                font-family: OstrichSans-medium;
+                line-height: 120px;
+        }
+
+        .skilled .line3 {
+                font-size: 235px;
+                font-family: OstrichSans-light;
+                line-height: 190px;
+        }
+
+        .skilled .line4 {
+                font-size: 290px;
+                font-family: OstrichSans-medium;
+                line-height: 170px;
+        }
+
 
 /* DESIGN */
 
@@ -342,7 +364,7 @@ font-family: Titillium-Regular;
 }
 
 .item img   {
-        width: 450px;
+        width: 430px;
         justify-content: center;
         align-items: top;
         margin: 10px;
@@ -440,30 +462,39 @@ h6      {
         font-family: Titillium-Semibold;
         font-size: 30px;
         color: #BF872C;
+        text-align: center;
+        margin-bottom: 30px;
 }
 
 .skilled        {
-        column-count: 2;
-        
-     
+        column-count: 2;    
 }
 
 .skilled li     {
         list-style: none;
         margin-left: 10px;
         padding-bottom: 10px;
+        font-family: Titillium-thin;
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        align-content: center;
+        align-items: center;
 }
 
 .blogbox {
         margin: auto;
         display: flex;
-        width: 70%;
+        flex-direction: row;
+        width: 80%;
         justify-content: center;
         margin-top: 40px;
     }
 
 .cont {
-        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         border-radius: 5px;
         color: #fff;
 }
@@ -493,6 +524,8 @@ h6      {
         align-content: center;
         align-items: center;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
         border-radius: 5px;
 }
 
@@ -524,7 +557,7 @@ h6      {
     }
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 1080px){
         .cont2  {   
                 font-size: 20px;
         }
@@ -536,6 +569,11 @@ h6      {
         .skilled li {
                 column-count: 1;
                 margin: 0;
+                
+        }
+
+        .skilled .line4 {
+                margin-bottom: 50px;
         }
 
         .nombre {
