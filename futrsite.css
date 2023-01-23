@@ -572,7 +572,27 @@ h6      {
                 
         }
 
+        .skilled .line1 {
+                font-family: OstrichSans-black;
+                font-size: 55px;
+        }
+
+        .skilled .line2 {
+                font-size: 150px;
+                font-family: OstrichSans-medium;
+                line-height: 90px;
+        }
+
+        .skilled .line3 {
+                font-size: 160px;
+                font-family: OstrichSans-light;
+                line-height: 140px;
+        }
+
         .skilled .line4 {
+                font-size: 215px;
+                font-family: OstrichSans-medium;
+                line-height: 140px;
                 margin-bottom: 50px;
         }
 
@@ -601,7 +621,7 @@ h6      {
         .headersother a {
                 text-decoration: none;
                 align-content: top;
-                font-size: 11px;
+                font-size: 13px;
                 color: #fff;
             }
             
@@ -630,8 +650,6 @@ h6      {
         
 
         }
-
-
 
 
 /* CONTACT */
