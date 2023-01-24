@@ -109,27 +109,27 @@ h4 {
 }
 
 
-               .skilled .line1 {
-                font-size: 140px;
+        .skilled .line1 {
+                font-size: 80px;
                 font-family: OstrichSans-black;
         }
 
         .skilled .line2 {
-                font-size: 240px;
+                font-size: 230px;
                 font-family: OstrichSans-medium;
-                line-height: 140px;
+                line-height: 130px;
         }
 
         .skilled .line3 {
-                font-size: 220px;
+                font-size: 230px;
                 font-family: OstrichSans-light;
-                line-height: 120px;
+                line-height: 180px;
         }
 
         .skilled .line4 {
-                font-size: 245px;
+                font-size: 300px;
                 font-family: OstrichSans-medium;
-                line-height: 120px;
+                line-height: 210px;
                 margin-bottom: 50px;
         }
 
@@ -466,13 +466,14 @@ h6      {
 }
 
 .skilled        {
-        column-count: 2;    
+        column-count: 2;
+        padding: 20px;    
 }
 
 .skilled li     {
         list-style: none;
         margin-left: 10px;
-        padding-bottom: 10px;
+        padding: 15px;
         font-family: Titillium-thin;
         font-size: 30px;
         color: #fff;
@@ -568,6 +569,8 @@ h6      {
         .skilled li {
                 column-count: 1;
                 margin: 0;
+                padding: 5px;
+                font-size: 26px;
                 
         }
         
@@ -576,25 +579,24 @@ h6      {
         .skilled .line1 {
                 font-size: 40px;
                 font-family: OstrichSans-black;
-                font-size: 55px;
         }
 
         .skilled .line2 {
-                font-size: 40px;
+                font-size: 120px;
                 font-family: OstrichSans-medium;
-                line-height: 40px;
+                line-height: 70px;
         }
 
         .skilled .line3 {
-                font-size: 20px;
+                font-size: 120px;
                 font-family: OstrichSans-light;
-                line-height: 60px;
+                line-height: 100px;
         }
 
         .skilled .line4 {
-                font-size: 45px;
+                font-size: 150px;
                 font-family: OstrichSans-medium;
-                line-height: 60px;
+                line-height: 90px;
                 margin-bottom: 50px;
         }
 
