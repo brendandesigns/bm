@@ -579,17 +579,17 @@ h6      {
         .skilled .line2 {
                 font-size: 80px;
                 font-family: OstrichSans-medium;
-                line-height: 50px;
+                line-height: 40px;
         }
 
         .skilled .line3 {
-                font-size: 60px;
+                font-size: 40px;
                 font-family: OstrichSans-light;
                 line-height: 100px;
         }
 
         .skilled .line4 {
-                font-size: 65px;
+                font-size: 45px;
                 font-family: OstrichSans-medium;
                 line-height: 100px;
                 margin-bottom: 50px;
