@@ -569,6 +569,10 @@ h6      {
                 margin: 0;
                 
         }
+        
+        .skilled {
+                flex-direction: column;
+        }
 
         .skilled .line1 {
                 font-size: 40px;
