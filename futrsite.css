@@ -89,25 +89,6 @@ h4 {
         padding: 20px;
 }
 
-.centre {
-        height: 450px;
-        border: #fff solid 2px;
-        margin: 40px;
-        border-radius: 10px;
-        vertical-align: middle;
-        line-height: normal;
-}
-
-.graphic {
-        font-size: 75px;
-        color: #BF872C;
-        font-family: Titillium-thin;
-        vertical-align: middle;
-        line-height: normal;
-        line-height: 105%;
-        margin-top: 50px;
-}
-
 
         .skilled .line1 {
                 font-size: 80px;
