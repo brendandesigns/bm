@@ -323,31 +323,6 @@ font-family: Titillium-Regular;
 
         }
 
-        .skilled .line1 {
-                font-family: OstrichSans-black;
-                font-size: 80px;
-                
-        }
-
-        .skilled .line2 {
-                font-size: 225px;
-                font-family: OstrichSans-medium;
-                line-height: 120px;
-        }
-
-        .skilled .line3 {
-                font-size: 235px;
-                font-family: OstrichSans-light;
-                line-height: 190px;
-        }
-
-        .skilled .line4 {
-                font-size: 290px;
-                font-family: OstrichSans-medium;
-                line-height: 170px;
-        }
-
-
 /* DESIGN */
 
 #mainframe      {
@@ -584,7 +559,7 @@ h6      {
         }
 
         .skilled .line3 {
-                font-size: 40px;
+                font-size: 20px;
                 font-family: OstrichSans-light;
                 line-height: 60px;
         }
