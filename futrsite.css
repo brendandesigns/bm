@@ -572,12 +572,13 @@ h6      {
         }
 
         .skilled .line1 {
+                font-size: 40px;
                 font-family: OstrichSans-black;
                 font-size: 55px;
         }
 
         .skilled .line2 {
-                font-size: 50px;
+                font-size: 40px;
                 font-family: OstrichSans-medium;
                 line-height: 40px;
         }
