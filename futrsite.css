@@ -320,6 +320,30 @@ font-family: Titillium-Regular;
         .contact{
                 display: block;
         }
+        
+                .skilled .line1 {
+                font-size: 140px;
+                font-family: OstrichSans-black;
+        }
+
+        .skilled .line2 {
+                font-size: 240px;
+                font-family: OstrichSans-medium;
+                line-height: 140px;
+        }
+
+        .skilled .line3 {
+                font-size: 220px;
+                font-family: OstrichSans-light;
+                line-height: 120px;
+        }
+
+        .skilled .line4 {
+                font-size: 245px;
+                font-family: OstrichSans-medium;
+                line-height: 120px;
+                margin-bottom: 50px;
+        }
 
         }
 
