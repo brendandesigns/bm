@@ -78,6 +78,14 @@ body {
         text-align: center;
 }
 
+.graphic {
+        font-size: 65px;
+        color: #BF872C;
+        font-family: Titillium-regular;
+        margin-top: 40px;
+}
+
+
 h3  {
         color: #fff;
         font-size: 24px;
