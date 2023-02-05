@@ -399,23 +399,23 @@ font-family: Titillium-Regular;
 
 .portcol1     {
         display: flex;
-        justify-content: center;
+       
         flex-direction: column;
         margin-top: -10px;
 }
 
 .portcol2     {
         display: flex;
-        justify-content: center;
+       
         flex-direction: column;
      
 }
 
 .portcol3     {
         display: flex;
-        justify-content: center;
+   /*   justify-content: center; */
         flex-direction: column;
-        margin-top: -15px;
+   /*     margin-top: -5px;     */
       
 }
 
