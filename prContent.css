@@ -11,7 +11,7 @@ button  {
         background-color: transparent;
     }
     
-    .popupone, .popuptwo, .popupthree, .popupfour, .popupfive, .popupsix, .popupseven, .popupeight, .popupnine, .popupten, .webportuno { 
+    .popupone, .popuptwo, .popupthree, .popupfour, .popupfive, .popupsix, .popupseven, .popupeight, .popupnine, .popupten, .popupthirteen, .webportuno { 
         display: none;
         position: fixed;
         z-index: 10;
@@ -31,6 +31,7 @@ button  {
         animation-name: modalopen;
         animation-duration: 2s;
     }
+
 
     .displayBox img {
         border-radius: 5px;
@@ -52,7 +53,7 @@ button  {
         to {opacity: 1}
     }
     
-    .closeBtn, .closeBtntwo, .closeBtnthree, .closeBtnfour, .closeBtnfive, .closeBtnsix, .closeBtnseven, .closeBtneight, .closeBtnnine, .closeBtnten, .BtnA_1  {
+    .closeBtn, .closeBtntwo, .closeBtnthree, .closeBtnfour, .closeBtnfive, .closeBtnsix, .closeBtnseven, .closeBtneight, .closeBtnnine, .closeBtnten, .closeBtnthirteen, .BtnA_1  {
         color: #fff;
         font-family: sans-serif;
         margin-right: 200px;
@@ -69,7 +70,7 @@ button  {
     .closeBtnseven:hover,.closeBtnseven:focus, 
     .closeBtneight:hover,.closeBtneight:focus, 
     .closeBtnnine:hover,.closeBtnnine:focus, 
-    .closeBtnten:hover,.closeBtnten:focus,
+    .closeBtnten:hover,.closeBtnten:focus, .closeBtnthirteen:focus,
     .BtnA_1:hover,.BtnA_1:focus {
         
         text-decoration: none;
