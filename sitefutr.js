@@ -45,6 +45,7 @@ const modalseven = document.getElementById('contentseven');
 const modaleight = document.getElementById('contenteight');
 const modalnine = document.getElementById('contentnine');
 const modalten = document.getElementById('contentten');
+const modalthirteen = document.getElementById('contentthirteen');
 
 // BUTTON
 
@@ -58,6 +59,7 @@ const modalBtnseven = document.getElementById('modalseven');
 const modalBtneight = document.getElementById('modaleight');
 const modalBtnnine = document.getElementById('modalnine');
 const modalBtnten = document.getElementById('modalten');
+const modalBtnthirteen = document.getElementById('modalthirteen');
 
 const closeBtn = document.getElementsByClassName('closeBtn')[0];
 const closeBtntwo = document.getElementsByClassName('closeBtntwo')[0];
@@ -69,6 +71,7 @@ const closeBtnseven = document.getElementsByClassName('closeBtnseven')[0];
 const closeBtneight = document.getElementsByClassName('closeBtneight')[0];
 const closeBtnnine = document.getElementsByClassName('closeBtnnine')[0];
 const closeBtnten = document.getElementsByClassName('closeBtnten')[0];
+const closeBtnThirteen = document.getElementsByClassName('closeBtnthirteen')[0];
 
 
 // CLICK
@@ -83,6 +86,7 @@ modalBtnseven.addEventListener('click', openModalseven);
 modalBtneight.addEventListener('click', openModaleight);
 modalBtnnine.addEventListener('click', openModalnine);
 modalBtnten.addEventListener('click', openModalten);
+modalBtnthirteen.addEventListener('click', openModalthirteen);
 
 
 // FUNCTION
@@ -127,6 +131,10 @@ function openModalten(){
     modalten.style.display = 'block';
 }
 
+function openModalthirteen(){
+    modalthirteen.style.display = 'block';
+}
+
 //  CLOSE
 
 closeBtn.addEventListener('click', closeModal);
@@ -139,6 +147,7 @@ closeBtnseven.addEventListener('click', closeModalseven);
 closeBtneight.addEventListener('click', closeModaleight);
 closeBtnnine.addEventListener('click', closeModalnine);
 closeBtnten.addEventListener('click', closeModalten);
+closeBtn.addEventListener('click', closeModalthirteen);
 
 window.addEventListener('click', outsideClick);
 
@@ -180,6 +189,10 @@ function closeModalnine(){
 
 function closeModalten(){
     modalten.style.display = 'none';
+}
+
+function closeModalthirteen(){
+    modalthirteen.style.display = 'none';
 }
 
 
@@ -235,10 +248,17 @@ function outsideClick(e) {
     if (e.target == modalten)
     modalten.style.display = 'none'; }
                                     
+    {         
+
+    if (e.target == modalthirteen)
+    modalthirteen.style.display = 'none';
+        
                 }
                                 
                 }
                             
+                }
+
                 }
                         
                 }
