@@ -29,7 +29,6 @@ button  {
         padding: 20px;
         width: 40%; /* Could be more or less, depending on screen size */
         animation-name: modalopen;
-        animation-name: modalclose;
         animation-duration: 2s;
     }
 
@@ -53,11 +52,6 @@ button  {
         from{opacity: 0}
         to {opacity: 1}
     }
-
-    @keyframes modalclose{
-            from{opacity: 1}
-            to{opacity: 0}
-        }
     
     .closeBtn, .closeBtntwo, .closeBtnthree, .closeBtnfour, .closeBtnfive, .closeBtnsix, .closeBtnseven, .closeBtneight, .closeBtnnine, .closeBtnten, .closeBtnthirteen, .BtnA_1  {
         color: #fff;
