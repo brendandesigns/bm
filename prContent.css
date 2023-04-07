@@ -24,7 +24,10 @@ button  {
     }
     
     .displayBox {
-        background-color: #000;
+        background: transparent;
+        background-filter: blur(20px);
+        border: solid 2px #fff;
+        border-radius: 20px;
         margin: 5% auto; /* 15% from the top and centered */
         padding: 20px;
         width: 40%; /* Could be more or less, depending on screen size */
