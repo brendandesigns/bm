@@ -24,8 +24,8 @@ button  {
     }
     
     .displayBox {
-        background-color: rgba(0, 0, 0, 0.6);
-        background-filter: blur(20px);
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(20px);
         border: solid 2px #fff;
         border-radius: 20px;
         margin: 5% auto; /* 15% from the top and centered */
