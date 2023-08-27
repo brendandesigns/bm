@@ -1,275 +1,230 @@
-/* 
+/*
 
- <div class="webcol">
-            <button id="modaluno" class="button">
-            <div class="item"><img src="jpg(w)/webpr1.jpg"></div></button>
-                
-                <div id="webvione" class="webportuno">
-                    <div class="displayBox">
-                <span class="closeBtnA_1"><B>X</B></span>
-                <img src="jpg(w)/webpr1.jpg">
-                <img src="jpg(w)/webpr2.jpg">
-                <h3>Solice.eu</h3>
-                <p class="copy">Working with a former colleague I was asked to build a wordpress site for a rehab company based in spain and was created by using a standard template and the assets (text and images) were then supplied to me to put the project together with the final outcome being a fully responsive website working accross all devices.</p>
-                    
+<div class="gallery-grid-one">
+               <img src="pr2a.jpg" alt="Avatar" class="image">
+                <div class="overlay-one">
+                  <div class="hideone"><button id="pr1"><h3>STEAMPUNK TYPEFACE</h3></button>
+                    <div id="popupone" class="displayBox">
+                      <span class="closeBtnone"><B>X</B></span>
+                      <img src="jpg(s)/pr2a.jpg">
+                      <img src="jpg(s)/pr2b.jpg">
+                      <img src="jpg(s)/pr2c.jpg">
+                      <img src="jpg(s)/pr2d.jpg">
+                      <h4>STEAMPUNK TYPEFACE</h4>
+                      <p class="copy">This font was designed for my university exhibition in my final year for an A1 size 
+                        display based around typography. I chose to use the steam punk/industrial art style for the design</p>
+                  </div>
+                  </div>
                 </div>
-                </div>
-                </div>
-
- <div class="portcol1">
-        <button id="modalone" class="button">
-        <div class="item"><img src="jpg(p)/pr1.1.jpg"></div></button>
-            
-            <div id="contentone" class="popupone">
-                <div class="displayBox">
-            <span class="closeBtn"><B>X</B></span>
-            <img src="jpg(s)/pr8a.jpg">
-            <img src="jpg(s)/pr8b.jpg">
-            <h3>HARPER'S FATE TRILOGY</h3>
-            <p class="copy">Final designs for a series of three novels for a client as well as the text given to me, the request was for the ribbon design to extend the full width of the cover and spine as to give the impression that the book itself is a gift box to be opened, all three novels have been published.</p>
-                
-                </div>
-                </div>
+              </div>
 
 */
 
-// CONTENT
+//content
 
-const modal = document.getElementById('contentone');
-const modaltwo = document.getElementById('contenttwo');
-const modalthree = document.getElementById('contentthree');
-const modalfour = document.getElementById('contentfour');
-const modalfive = document.getElementById('contentfive');
-const modalsix = document.getElementById('contentsix');
-const modalseven = document.getElementById('contentseven');
-const modaleight = document.getElementById('contenteight');
-const modalnine = document.getElementById('contentnine');
-const modalten = document.getElementById('contentten');
-const modalthirteen = document.getElementById('contentthirteen');
-
-// BUTTON
-
-const modalBtn = document.getElementById('modalone');
-const modalBtntwo = document.getElementById('modaltwo');
-const modalBtnthree = document.getElementById('modalthree');
-const modalBtnfour = document.getElementById('modalfour');
-const modalBtnfive = document.getElementById('modalfive');
-const modalBtnsix = document.getElementById('modalsix');
-const modalBtnseven = document.getElementById('modalseven');
-const modalBtneight = document.getElementById('modaleight');
-const modalBtnnine = document.getElementById('modalnine');
-const modalBtnten = document.getElementById('modalten');
-const modalBtnthirteen = document.getElementById('modalthirteen');
-
-const closeBtn = document.getElementsByClassName('closeBtn')[0];
-const closeBtntwo = document.getElementsByClassName('closeBtntwo')[0];
-const closeBtnthree = document.getElementsByClassName('closeBtnthree')[0];
-const closeBtnfour = document.getElementsByClassName('closeBtnfour')[0];
-const closeBtnfive = document.getElementsByClassName('closeBtnfive')[0];
-const closeBtnsix = document.getElementsByClassName('closeBtnsix')[0];
-const closeBtnseven = document.getElementsByClassName('closeBtnseven')[0];
-const closeBtneight = document.getElementsByClassName('closeBtneight')[0];
-const closeBtnnine = document.getElementsByClassName('closeBtnnine')[0];
-const closeBtnten = document.getElementsByClassName('closeBtnten')[0];
-const closeBtnThirteen = document.getElementsByClassName('closeBtnthirteen')[0];
+const modalcontentone = document.getElementById('popupone');
+const modalcontenttwo = document.getElementById('popuptwo');
+const modalcontentthree = document.getElementById('popupthree');
+const modalcontentfour = document.getElementById('popupfour');
+const modalcontentfive = document.getElementById('popupfive');
+const modalcontentsix = document.getElementById('popupsix');
+const modalcontentseven = document.getElementById('popupseven');
+const modalcontenteight = document.getElementById('popupeight');
+const modalcontentnine = document.getElementById('popupnine');
+const modalcontentten = document.getElementById('popupten');
+const modalcontenteleven = document.getElementById('popupeleven');
+const modalcontenttwelve = document.getElementById('popuptwelve');
 
 
-// CLICK
 
-modalBtn.addEventListener('click', openModal);
-modalBtntwo.addEventListener('click', openModaltwo);
-modalBtnthree.addEventListener('click', openModalthree);
-modalBtnfour.addEventListener('click', openModalfour);
-modalBtnfive.addEventListener('click', openModalfive);
-modalBtnsix.addEventListener('click', openModalsix);
-modalBtnseven.addEventListener('click', openModalseven);
-modalBtneight.addEventListener('click', openModaleight);
-modalBtnnine.addEventListener('click', openModalnine);
-modalBtnten.addEventListener('click', openModalten);
-modalBtnthirteen.addEventListener('click', openModalthirteen);
+//button
 
+const modalbtnone = document.getElementById('pr1');
+const modalbtntwo = document.getElementById('pr2');
+const modalbtnthree = document.getElementById('pr3');
+const modalbtnfour = document.getElementById('pr4');
+const modalbtnfive = document.getElementById('pr5');
+const modalbtnsix = document.getElementById('pr6');
+const modalbtnseven = document.getElementById('pr7');
+const modalbtneight = document.getElementById('pr8');
+const modalbtnnine = document.getElementById('pr9');
+const modalbtnten = document.getElementById('pr10');
+const modalbtneleven = document.getElementById('pr11');
+const modalbtntwelve = document.getElementById('pr12');
 
-// FUNCTION
+//function
 
-function openModal(){
-    modal.style.display = 'block';
+function openmodalcontentone(){
+  modalcontentone.style.display = 'block';
 }
 
-function openModaltwo(){
-    modaltwo.style.display = 'block';
+function openmodalcontenttwo(){
+modalcontenttwo.style.display = 'block';
 }
 
-function openModalthree(){
-    modalthree.style.display = 'block';
+function openmodalcontentthree(){
+modalcontentthree.style.display = 'block';
 }
 
-function openModalfour(){
-    modalfour.style.display = 'block';
+function openmodalcontentfour(){
+  modalcontentfour.style.display = 'block';
 }
 
-function openModalfive(){
-    modalfive.style.display = 'block';
+function openmodalcontentfive(){
+  modalcontentfive.style.display = 'block';
 }
 
-function openModalsix(){
-    modalsix.style.display = 'block';
+function openmodalcontentsix(){
+  modalcontentsix.style.display = 'block';
 }
 
-function openModalseven(){
-    modalseven.style.display = 'block';
+function openmodalcontentseven(){
+  modalcontentseven.style.display = 'block';
 }
 
-function openModaleight(){
-    modaleight.style.display = 'block';
+function openmodalcontenteight(){
+  modalcontenteight.style.display = 'block';
 }
 
-function openModalnine(){
-    modalnine.style.display = 'block';
+function openmodalcontentnine(){
+  modalcontentnine.style.display = 'block';
 }
 
-function openModalten(){
-    modalten.style.display = 'block';
+function openmodalcontentten(){
+  modalcontentten.style.display = 'block';
 }
 
-function openModalthirteen(){
-    modalthirteen.style.display = 'block';
+function openmodalcontenteleven(){
+  modalcontenteleven.style.display = 'block';
 }
 
-//  CLOSE
-
-closeBtn.addEventListener('click', closeModal);
-closeBtntwo.addEventListener('click', closeModaltwo);
-closeBtnthree.addEventListener('click', closeModalthree);
-closeBtnfour.addEventListener('click', closeModalfour);
-closeBtnfive.addEventListener('click', closeModalfive);
-closeBtnsix.addEventListener('click', closeModalsix);
-closeBtnseven.addEventListener('click', closeModalseven);
-closeBtneight.addEventListener('click', closeModaleight);
-closeBtnnine.addEventListener('click', closeModalnine);
-closeBtnten.addEventListener('click', closeModalten);
-closeBtn.addEventListener('click', closeModalthirteen);
-
-window.addEventListener('click', outsideClick);
-
-function closeModal(){
-    modal.style.display = 'none';
+function openmodalcontenttwelve(){
+  modalcontenttwelve.style.display = 'block';
 }
 
-function closeModaltwo(){
-    modaltwo.style.display = 'none';
+
+
+
+// click
+
+modalbtnone.addEventListener('click', openmodalcontentone);
+modalbtntwo.addEventListener('click', openmodalcontenttwo);
+modalbtnthree.addEventListener('click', openmodalcontentthree);
+modalbtnfour.addEventListener('click', openmodalcontentfour);
+modalbtnfive.addEventListener('click', openmodalcontentfive);
+modalbtnsix.addEventListener('click', openmodalcontentsix);
+modalbtnseven.addEventListener('click', openmodalcontentseven);
+modalbtneight.addEventListener('click', openmodalcontenteight);
+modalbtnnine.addEventListener('click', openmodalcontentnine);
+modalbtnten.addEventListener('click', openmodalcontentten);
+modalbtneleven.addEventListener('click', openmodalcontenteleven);
+/*
+modalbtntwelve.addEventListener('click', openmodalcontenttwelve);
+modalbtnthirteen.addEventListener('click', openmodalcontentthirteen);
+*/
+
+
+
+//close modal
+
+const closedBtnone = document.getElementsByClassName('closeBtnone')[0];
+const closedBtntwo = document.getElementsByClassName('closeBtntwo')[0];
+const closedBtnthree = document.getElementsByClassName('closeBtnthree')[0];
+const closedBtnfour = document.getElementsByClassName('closeBtnfour')[0];
+const closedBtnfive = document.getElementsByClassName('closeBtnfive')[0];
+const closedBtnsix = document.getElementsByClassName('closeBtnsix')[0];
+const closedBtnseven = document.getElementsByClassName('closeBtnseven')[0];
+const closedBtneight = document.getElementsByClassName('closeBtneight')[0];
+const closedBtnnine = document.getElementsByClassName('closeBtnnine')[0];
+const closedBtnten = document.getElementsByClassName('closeBtnten')[0];
+const closedBtneleven = document.getElementsByClassName('closeBtneleven')[0];
+
+/*
+const closedBtntwelve = document.getElementsByClassName('closeBtntwelve')[0];
+const closedBtnthirteen = document.getElementsByClassName('closeBtnthirteen')[0];
+*/
+
+
+
+closedBtnone.addEventListener('click', closeBtnone);
+closedBtntwo.addEventListener('click', closeBtntwo);
+closedBtnthree.addEventListener('click', closeBtnthree);
+closedBtnfour.addEventListener('click', closeBtnfour);
+closedBtnfive.addEventListener('click', closeBtnfive);
+closedBtnsix.addEventListener('click', closeBtnsix);
+closedBtnseven.addEventListener('click', closeBtnseven);
+closedBtneight.addEventListener('click', closeBtneight);
+closedBtnnine.addEventListener('click', closeBtnnine);
+closedBtnten.addEventListener('click', closeBtnten);
+closedBtneleven.addEventListener('click', closeBtneleven);
+
+/*
+closedBtntwelve.addEventListener('click', closeBtntwelve);
+closedBtnthirteen.addEventListener('click', closeBtnthirteen);
+
+*/
+
+function closeBtnone(){
+    modalcontentone.style.display = 'none';
 }
 
-function closeModalthree(){
-    modalthree.style.display = 'none';
+function closeBtntwo(){
+  modalcontenttwo.style.display = 'none';
 }
 
-function closeModalfour(){
-    modalfour.style.display = 'none';
+function closeBtnthree(){
+  modalcontentthree.style.display = 'none';
 }
 
-function closeModalfive(){
-    modalfive.style.display = 'none';
+function closeBtnfour(){
+  modalcontentfour.style.display = 'none';
 }
 
-function closeModalsix(){
-    modalsix.style.display = 'none';
+function closeBtnfive(){
+  modalcontentfive.style.display = 'none';
 }
 
-function closeModalseven(){
-    modalseven.style.display = 'none';
+function closeBtnsix(){
+  modalcontentsix.style.display = 'none';
 }
 
-function closeModaleight(){
-    modaleight.style.display = 'none';
+function closeBtnseven(){
+  modalcontentseven.style.display = 'none';
 }
 
-function closeModalnine(){
-    modalnine.style.display = 'none';
+function closeBtneight(){
+  modalcontenteight.style.display = 'none';
 }
 
-function closeModalten(){
-    modalten.style.display = 'none';
+function closeBtnnine(){
+  modalcontentnine.style.display = 'none';
 }
 
-function closeModalthirteen(){
-    modalthirteen.style.display = 'none';
+function closeBtnten(){
+  modalcontentten.style.display = 'none';
 }
 
+function closeBtneleven(){
+  modalcontenteleven.style.display = 'none';
+}
+
+/*
+
+function closeBtntwelve(){
+  modalcontenttwelve.style.display = 'none';
+}
+
+function closeBtnthirteen(){
+  modalcontentthirteen.style.display = 'none';
+}
+
+*/
+
+window,addEventListener('click', outsideClick);
+
+// outside click
 
 function outsideClick(e) {
-    if (e.target == modal) 
-    modal.style.display = 'none'; {
-    
-    if (e.target == modaltwo)
-    modaltwo.style.display = 'none'; 
-    
-    {
-    
-    if (e.target == modalthree)
-    modalthree.style.display = 'none'; 
-    
-    {
-    
-    if (e.target == modalfour)
-    modalfour.style.display = 'none'; 
-    
-    {
-    
-    if (e.target == modaltwo)
-    modalfive.style.display = 'none'; 
-    
-    {
-    
-    if (e.target == modalfive)
-    modalfive.style.display = 'none'; 
-    
-    {
-    
-    if (e.target == modalsix)
-    modalsix.style.display = 'none'; 
-    
-    {
-    
-    if (e.target == modalseven)
-    modalseven.style.display = 'none'; 
-    
-    {
-    
-    if (e.target == modaleight)
-    modaleight.style.display = 'none'; 
-    
-    {
-    
-    if (e.target == modalnine)
-    modalnine.style.display = 'none'; 
-    
-    {
-    
-    if (e.target == modalten)
-    modalten.style.display = 'none'; }
-                                    
-    {         
-
-    if (e.target == modalthirteen)
-    modalthirteen.style.display = 'none';
-        
-                }
-                                
-                }
-                            
-                }
-
-                }
-                        
-                }
-                    
-                }
-                
-                }
-            
-            }
-        
-        }
-    
-    }
-}
+  if (e.target == modalcontentone) 
+  modalcontentone.style.display = 'none'; 
+} 
