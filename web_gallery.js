@@ -1,26 +1,28 @@
 // WEB PORTFOLIO
 
-const webviuno = document.getElementById('webvione');
+const modalcontentthirteen = document.getElementById('popupthirteen');
 
-const modalPortuno = document.getElementById('modaluno');
+const modalbtnthirteen = document.getElementById('pr13');
 
-const closeBtnA_1 = document.getElementsByClassName('BtnA_1')[0];
+function openmodalcontentthirteen(){
+    modalcontentthirteen.style.display = 'block';
+  }
 
-modalPortuno.addEventListener('click', openModalPortuno);
+  modalbtnthirteen.addEventListener('click', openmodalcontentthirteen);
 
-function openModalPortuno(){
-    webviuno.style.display = 'block';
+  const closedBtnthirteen = document.getElementsByClassName('closebtnthirteen')[0];
+
+
+    closedBtnthirteen.addEventListener('click', closebtnthirteen);
+
+    window.addEventListener('click', outsideClick);
+
+    function closebtnthirteen(){
+        modalcontentthirteen.style.display = 'none';
+      }
+
+function outsideClick(e) {
+    if (e.target == modalcontentthirteen) {
+    modalcontentthirteen.style.display = 'none';
 }
-
-closeBtnA_1.addEventListener('click', BtnA_1);
-
-function BtnA_1(){
-    webviuno.style.display = 'none';
-}
-
-window.addEventListener('click', clickOutside);
-
-function clickOutside(e) {
-    if (e.target == webvione) 
-    webvione.style.display = 'none';
 }
