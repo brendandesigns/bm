@@ -66,6 +66,10 @@
     margin-bottom: 15px;
 }
 
+.displayBox {
+    display: block;
+}
+
 .displayBox video {
     max-width: 100%;
     margin: auto;
