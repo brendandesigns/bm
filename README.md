@@ -1,2 +1,2 @@
 # home
-https://bmgraphicx.github.io/home/
+https://brendandesigns.github.io/bm
