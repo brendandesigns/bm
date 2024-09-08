@@ -132,6 +132,7 @@
                 color: #fff;
                 text-align: center;
                 font-size: 4rem;
+                margin: 20px;
             }
 
             .title {
@@ -146,7 +147,6 @@
                 text-align: center;
                 align-items: center;
                 width: 90%;
-                line-height: 4.5rem;
             }
 
             .headline h3 {
@@ -154,9 +154,8 @@
                 display: inline-block;
                 color: #fff;
                 text-align: center;
-                font-size: 1.5rem;
+                font-size: 1.3rem;
                 margin: auto;
-                line-height: 4.5rem;
             }
 
             .headline h3:nth-child(odd) {
@@ -458,19 +457,19 @@
                 width: 500px;
             }
             
-            button {
+            .middle button {
                 display: flex;
-                font-family: andersonBold;;
-                font-size: 0.8rem;
+                font-family: allRounderMedium;
+                font-size: 1rem;
                 border: none;
                 padding: 5px;
-                color: #BF872C;
-                border: 1px solid #BF872C;
+                color: #fff;
+                border: 1px solid #fff;
                 background-color: transparent;
                 text-transform: uppercase;
             }
 
-            button:hover {
+            .middle button:hover {
                 cursor: pointer;
             }
 
@@ -506,21 +505,22 @@
 
                 .offScreenMenu .list li{
                     font-family: andersonBold;
-                    font-size: 22px;
-                    top: 50%;
+                    text-align: left;
+                    font-size: 1rem;
+                    top: 40%;
+                    margin-left: 8%;
                     color: #fff;
-                    margin-top: 15%;
+                    margin-top: 10%;
                     z-index: 50;
                 }
             
                 .offScreenMenu .list{
                     display: block;
-                    font-size: 22px;
                     color: #fff;
                     position: relative;
-                    margin: auto;
                     text-align: center;
-                    top: 10%;
+                    top: 8%;
+                    left: 0;
                     left: 50%, -50%;
                     list-style: none;
                 }
@@ -533,25 +533,24 @@
                     display: block;
                     height: 100vh;
                     background-color: rgba(146, 116, 23, 0.9);
-                    width: 100%;
-                    max-width: 860px;
-                    margin: auto;
+                    width: 70%;
+                    max-width: 560px;
                     position: fixed;
-                    right: -860px;
+                    left: -560px;
                     z-index: 20;
             
                 }
+
             
                 .offScreenMenu.active {
-                    right: 0;
+                    left: 0;
                     transition: all 0.7s ease-in-out;
                 }
 
                 .ham-menu {
-                    height: 60px;
                     width: 35px;
-                    margin: auto;
                     position: relative;
+                    top: 20;
                     cursor: pointer;
                     z-index: 30;
                 }
@@ -561,10 +560,12 @@
                     height: 4px;
                     transition: all 0.5s ease-in-out;
                     background-color: #fff;
-                    position: absolute;
-                    top: 20%;
+                    position: fixed;
+                    z-index: 999;
+                    top: 20px;
                     transform: translateY(-20%);
                 }
+
             
                 .ham-menu .bar:nth-child(2) {
                     margin-top: 1rem;
@@ -591,8 +592,9 @@
                 /* TITLE */
 
                 .name {
-                    line-height: 5rem;
+                    line-height: 4rem;
                     font-size: 3rem;
+                    margin-bottom: 30px;
                 }
     
                 .title {
@@ -607,12 +609,11 @@
                     text-align: center;
                     align-items: center;
                     width: 90%;
-                    line-height: 2rem;
                 }
     
                 .headline h3 {
-                    font-size: 1rem;
-                    line-height: 3rem !important;
+                    font-size: 0.9rem;
+                    line-height: 2rem !important;
                 }
     
                 .headline h3:nth-child(odd) {
