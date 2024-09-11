@@ -457,19 +457,19 @@
                 width: 500px;
             }
             
-            .middle button {
+           button {
                 display: flex;
                 font-family: allRounderMedium;
                 font-size: 1rem;
                 border: none;
                 padding: 5px;
-                color: #fff;
-                border: 1px solid #fff;
+                color: #BF872C;
+                border: 1px solid #BF872C;
                 background-color: transparent;
                 text-transform: uppercase;
             }
 
-            .middle button:hover {
+           button:hover {
                 cursor: pointer;
             }
 
