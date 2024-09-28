@@ -47,7 +47,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(24, 26, 28, 0.7);
     backdrop-filter: blur(15px);
     border: solid 1px #fff;
     margin: 5% auto; /* 15% from the top and centered */
@@ -71,7 +71,7 @@
 }
 
 .displayBox video {
-    max-width: 100%;
+    width: 100%;
     margin: auto;
     margin-bottom: 15px;
 }
@@ -138,6 +138,7 @@
     .displayBox img {
         max-width: 100%;
         margin: auto;
+        justify-content: center;
         margin-bottom: 10px;
     }
 
