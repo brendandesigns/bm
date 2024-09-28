@@ -11,6 +11,8 @@ const openModalTen = document.getElementById('modalTen');
 const openModalEleven = document.getElementById('modalEleven');
 const openModalTwelve = document.getElementById('modalTwelve');
 const openModalThirteen = document.getElementById('modalThirteen');
+const openModalFourteen = document.getElementById('modalFourteen');
+const openModalFifteen = document.getElementById('modalFifteen');
 
 /* 
 const openModalFourteen = document.getElementById('modalFourteen');
@@ -31,6 +33,8 @@ const modalContainerTen = document.getElementById('contentTen');
 const modalContainerEleven = document.getElementById('contentEleven');
 const modalContainerTwelve = document.getElementById('contentTwelve');
 const modalContainerThirteen = document.getElementById('contentThirteen');
+const modalContainerFourteen = document.getElementById('contentFourteen');
+const modalContainerFifteen = document.getElementById('contentFifteen');
 /*
 const modalContainerFourteen = document.getElementById('contentFourteen');
 const modalContainerFifteen = document.getElementById('contentFifteen');
@@ -49,6 +53,8 @@ const closeModalTen = document.getElementById('closeModalTen');
 const closeModalEleven = document.getElementById('closeModalEleven');
 const closeModalTwelve = document.getElementById('closeModalTwelve');
 const closeModalThirteen = document.getElementById('closeModalThirteen');
+const closeModalFourteen = document.getElementById('closeModalFourteen');
+const closeModalFifteen = document.getElementById('closeModalFifteen');
 
 /*
 const closeModalFourteen = document.getElementById('closeModalFourteen');
@@ -108,6 +114,14 @@ openModalTwelve.addEventListener('click', () => {
 openModalThirteen.addEventListener('click', () => {
     modalContainerThirteen.classList.add('show');
 });
+
+openModalFourteen.addEventListener('click', () => {
+    modalContainerFourteen.classList.add('show');
+});
+
+openModalFifteen.addEventListener('click', () => {
+    modalContainerFifteen.classList.add('show');
+})
 
 /*
 
@@ -173,10 +187,16 @@ closeModalTwelve.addEventListener('click', () => {
     modalContainerTwelve.classList.remove('show');
 });
 
-
-
 closeModalThirteen.addEventListener('click', () => {
     modalContainerThirteen.classList.remove('show');
+});
+
+closeModalFourteen.addEventListener('click', () => {
+    modalContainerFourteen.classList.remove('show');
+});
+
+closeModalFifteen.addEventListener('click', () => {
+    modalContainerFifteen.classList.remove('show');
 });
 
 /*
