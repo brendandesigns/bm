@@ -370,6 +370,7 @@
                     transition: ease-in-out .7s;
                     position: absolute;
                     margin-left: 20px;
+                       width: 40px;
                 }
 
                 .projectType img:hover {
