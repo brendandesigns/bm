@@ -1,7 +1,7 @@
         *   {   margin: 0;
                 padding: 0;
                 box-sizing: border-box;
-                transition: ease-out 0.5s;
+                transition: ease-in-out 0.5s;
 
         }
 
@@ -152,15 +152,16 @@
             .headline h3 {
                 font-family: andersonLight;
                 display: inline-block;
-                color: #fff;
+                color: #BF872C;
                 text-align: center;
                 font-size: 1.3rem;
+                line-height: 4rem;
                 margin: auto;
             }
 
             .headline h3:nth-child(odd) {
                 font-family: andersonBold;
-                color: #b6b6b6;
+                color: #BF872C;
                 text-align: center;
             }
 
@@ -185,7 +186,7 @@
 
             .sectionHead {
                 font-family: allRounderRegular;
-                color: #fff;
+                color: #BF872C;
                 font-size: 2.2rem;
             }
 
@@ -289,6 +290,12 @@
                         margin-bottom: 10px;
                     }
 
+
+                    .containerOne:hover, .containerTwo:hover, .containerThree:hover, 
+                    .containerFour:hover, .containerFive:hover, .containerSix:hover {
+                        border: #fff 1px solid;
+                        }
+            
                 .image {
                 opacity: 1;
                 display: block;
@@ -308,7 +315,7 @@
 
                 .containerOne:hover .image,  .containerTwo:hover .image, .containerThree:hover .image,
                 .containerFour:hover .image,  .containerFive:hover .image, .containerSix:hover .image {
-                opacity: 0.2;
+                opacity: 0.3;
                 transform: scale(1.2);
                 transition: .7s ease-in;
                 }
@@ -351,7 +358,7 @@
 
                     .projectType {
                         font-family: allRounderRegular;
-                        color: #fff;
+                        color: #BF872C;
                         font-size: 2rem;
                         width: 90%;
                         margin-bottom: 50px;
@@ -461,7 +468,6 @@
                 display: flex;
                 font-family: allRounderMedium;
                 font-size: 1rem;
-                border: none;
                 padding: 5px;
                 color: #BF872C;
                 border: 1px solid #BF872C;
@@ -559,7 +565,7 @@
                     width: 35px;
                     height: 4px;
                     transition: all 0.5s ease-in-out;
-                    background-color: #fff;
+                    background-color: #BF872C;
                     position: fixed;
                     z-index: 999;
                     top: 20px;
@@ -578,6 +584,7 @@
                 .ham-menu.active span:nth-child(1) {
             
                     transform: translateY(16px) rotate(45deg);
+                    background-color: #fff;
                 }
             
                 .ham-menu.active span:nth-child(2) {
@@ -586,7 +593,8 @@
             
                 .ham-menu.active span:nth-child(3) {
             
-                    transform: translateY(-16px) rotate(-45deg);   
+                    transform: translateY(-16px) rotate(-45deg);
+                    background-color: #fff;   
                 }
 
                 /* TITLE */
@@ -612,13 +620,13 @@
                 }
     
                 .headline h3 {
-                    font-size: 0.9rem;
+                    font-size: 0.8rem;
                     line-height: 2rem !important;
                 }
     
                 .headline h3:nth-child(odd) {
                     font-family: andersonBold;
-                    color: #b6b6b6;
+                    color: #BF872C;
                     text-align: center;
                 }
 
@@ -688,7 +696,6 @@
 
                     .sectionHead {
                         font-family: allRounderRegular;
-                        color: #fff;
                         font-size: 1.5rem;
                     }
         
