@@ -30,12 +30,13 @@
     position: fixed;
     opacity: 0;
     pointer-events: none;
+    padding-top: 50px;
     top: 0;
     left: 0;
     max-height: 100%;
     overflow-y: scroll;
     width: 100vw;
-    transition: opacity 0.3s ease;
+    transition: 0.3s ease;
     z-index: 50;
     backdrop-filter: blur(10px);
 }
@@ -78,11 +79,15 @@
     width: 100%;
     margin: auto;
     margin-bottom: 15px;
+    height: auto;
 }
 
 .displayBox iframe {
-    max-width: 100%;
+    max-width: 976px;
+    width: 100%;
     margin: auto;
+    height: 100%;
+    min-height: 450px;
     margin-bottom: 15px;
 }
 
@@ -132,6 +137,7 @@
     .displayBox {
         display: flex;
         flex-wrap: wrap;
+        position: relative;
         justify-content: space-between;
         margin: 5% auto; /* 15% from the top and centered */
         padding: 10px;
@@ -147,7 +153,8 @@
     }
 
     .displayBox iframe {
-        height: 250px;
+        height: 100%;
+        min-height: 200px;
     }
 
     #closeModalOne, #closeModalTwo, #closeModalThree, #closeModalFour, #closeModalFive, #closeModalSix, #closeModalSeven, #closeModalEight,
