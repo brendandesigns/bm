@@ -23,7 +23,8 @@
 
 #contentTwo,  #contentOne, #contentThree, #contentThree, #contentFour, #contentFive,
 #contentSix, #contentSeven, #contentEight, #contentNine, #contentTen, #contentEleven,
-#contentTwelve, #contentThirteen, #contentFourteen, #contentFifteen  { 
+#contentTwelve, #contentThirteen, #contentFourteen, #contentFifteen, #contentSixteen, 
+#contentSeventeen, #contentEighteen { 
     background-color: rgba(0, 0, 0, 0.7);
     margin: auto;
     justify-content: center;
@@ -43,7 +44,7 @@
 
 #contentTwo.show, #contentOne.show, #contentThree.show, #contentFour.show,#contentFive.show, #contentSix.show,
 #contentSeven.show, #contentEight.show, #contentNine.show, #contentTen.show, #contentEleven.show, #contentTwelve.show, 
-#contentThirteen.show, #contentFourteen.show, #contentFifteen.show {
+#contentThirteen.show, #contentFourteen.show, #contentFifteen.show, #contentSixteen.show, #contentSeventeen.show, #contentEighteen.show {
     pointer-events: auto;
     opacity: 1;
 }
@@ -57,7 +58,7 @@
     border: solid 1px #fff;
     margin: 5% auto; /* 15% from the top and centered */
     padding: 15px;
-    width: 800px; 
+    width: 1080px; 
     max-width: 100%; /* Could be more or less, depending on screen size */
     animation-duration: 2s;
     overflow-y: auto;
@@ -83,16 +84,17 @@
 }
 
 .displayBox iframe {
-    max-width: 976px;
+    max-width: 1280px;
     width: 100%;
     margin: auto;
+    min-height: 650px;
     height: 100%;
-    min-height: 450px;
     margin-bottom: 15px;
 }
 
 #closeModalOne, #closeModalTwo, #closeModalThree, #closeModalFour, #closeModalFive, #closeModalSix, #closeModalSeven, #closeModalEight,
-#closeModalNine, #closeModalTen, #closeModalEleven, #closeModalTwelve, #closeModalEleven, #closeModalTwelve, #closeModalThirteen, #closeModalFourteen, #closeModalFifteen {
+#closeModalNine, #closeModalTen, #closeModalEleven, #closeModalTwelve, #closeModalEleven, #closeModalTwelve, #closeModalThirteen, #closeModalFourteen, 
+#closeModalFifteen, #closeModalSixteen, #closeModalSeventeen, #closeModalEighteen {
     cursor: pointer;
     font-family: allRounderRegular;
     color: #fff;
@@ -154,11 +156,12 @@
 
     .displayBox iframe {
         height: 100%;
-        min-height: 200px;
+        min-height: 210px;
     }
 
     #closeModalOne, #closeModalTwo, #closeModalThree, #closeModalFour, #closeModalFive, #closeModalSix, #closeModalSeven, #closeModalEight,
-    #closeModalNine, #closeModalTen, #closeModalEleven, #closeModalTwelve, #closeModalThirteen, #closeModalFourteen, #closeModalFifteen {
+    #closeModalNine, #closeModalTen, #closeModalEleven, #closeModalTwelve, #closeModalThirteen, #closeModalFourteen, #closeModalFifteen, 
+    #closeModalSixteen, #closeModalSeventeen, #closeModalEighteen {
         cursor: pointer;
         font-family: allRounderRegular;
         color: #fff;
