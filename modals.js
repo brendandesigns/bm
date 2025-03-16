@@ -121,19 +121,8 @@ openModalFourteen.addEventListener('click', () => {
 
 openModalFifteen.addEventListener('click', () => {
     modalContainerFifteen.classList.add('show');
-})
-
-/*
-
-openModalFourteen.addEventListener('click', () => {
-    modalContainerFourteen.classList.add('show');
 });
 
-openModalFifteen.addEventListener('click', () => {
-    modalContainerFifteen.classList.add('show');
-});
-
-*/
 
 
 
