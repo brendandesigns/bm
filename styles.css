@@ -257,7 +257,7 @@
                 .containerOne {
                     position: relative;
                     overflow: hidden;
-                    height: 400px;
+                    height: 550px;
                     object-fit: cover;
                     margin-bottom: 10px;
                     }
@@ -265,7 +265,7 @@
                 .containerTwo {
                     position: relative;
                     overflow: hidden;
-                    height: 500px;
+                    height: 550px;
                     margin-bottom: 10px;
                     }
 
@@ -273,7 +273,7 @@
                     position: relative;
                     overflow: hidden;
                     justify-content: center;
-                    height: 300px;
+                    height: 550px;
                     margin-bottom: 10px;
                     }
 
@@ -281,7 +281,7 @@
                         position: relative;
                         overflow: hidden;
                         justify-content: center;
-                        height: 300px;
+                        height: 550px;
                         margin-bottom: 10px;
                         }
 
@@ -289,7 +289,7 @@
                         position: relative;
                         overflow: hidden;
                         justify-content: center;
-                        height: 400px;
+                        height: 550px;
                         margin-bottom: 10px;
                     }
 
@@ -347,24 +347,27 @@
                 z-index: 30;
                 }
 
-                .galleryGrid {
+
+
+                .portfolioFrame {
                     display: grid;
-                    grid-template-columns: 30% 30% 30% 10%;
+                    grid-template-columns: 90% 10%;
                     margin: auto;
-                    width: 90%;
-                    gap: 10px;
                     justify-content: center;
-                    margin-bottom: 50px;
                 }
                 
                 .projectColumnTwo {
                     display: grid;
-                    grid-template-columns: 33% 33% 33%;
-                    gap: 10px;
+                    grid-template-columns: 50% 50%;
+                    gap: 20px;
                     width: 90%;
                     margin: auto;
                     justify-content: center;
                     margin-bottom: 50px;
+                }
+
+                .galleryRow {
+                    display: flex;
                 }
 
                     .projectType {
@@ -550,9 +553,9 @@
             
                 .offScreenMenu {
                     display: block;
-                    height: 100vh;
+                    height: 60vh;
                     background-color: rgba(146, 116, 23, 0.9);
-                    width: 70%;
+                    width: 100%;
                     max-width: 560px;
                     position: fixed;
                     left: -560px;
@@ -684,13 +687,22 @@
 
              @media only screen and (max-width: 960px) {
 
+
+                .portfolioFrame {
+                    display: grid;
+                    grid-template-columns: 100%;
+                    margin: auto;
+                    justify-content: center;
+                }
+
+
+
                 #trailer {
                     display: none;
                 }
 
                 .projectType img {
                     width: 30px;
-                    margin-top: 8px;
                     transform: rotate(90deg);
                 }
                 
@@ -714,7 +726,7 @@
                     .projectType {
                         font-family: allRounderRegular;
                         color: #BF872C;
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
                         width: 90%;
                         margin-bottom: 50px;
                         margin: auto;
@@ -766,7 +778,8 @@
                    }
 
                    .socialMedia {
-                    margin-top: 50px;
+                    margin: 0 0 40px 0;
+                    width: 95%;
                     align-content: center;
                    }
 
@@ -775,5 +788,14 @@
                     flex-direction: row;
                     margin: auto;
                     justify-content: center;
+                }
+    
+                .socialList ul li {
+                    width: 35px;
+                    height: 35px;
+                    background-color: rgba(0, 0, 0, 0.6);
+                    backdrop-filter: blur(15px);
+                    border-radius: 50%;
+                    margin: 2.5%;
                 }
             }
