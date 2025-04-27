@@ -19,7 +19,7 @@
         }
 
         a:hover{ 
-            color: #BF872C;
+            color: #8e7b54;
             transition: ease 0.5s;
     }
 
@@ -49,7 +49,7 @@
                     width: 20px;
                     height: 20px;
                     border-radius: 20px;
-                    background-color: #BF872C;
+                    background-color: #8e7b54;
                     opacity: 0.8;
                     top: -30px;
                     left: 30px;
@@ -57,7 +57,17 @@
                     pointer-events: none;
                     transition: opacity 500ms ease;
                 }
+
                 
+
+
+                .prvid {
+                    margin-bottom: 30px;
+                    height: 550px;
+                    max-width: 100%;
+                }
+
+
                 
                     body:hover > #trailer {
                         opacity: 1;
@@ -114,10 +124,11 @@
                 text-align: left;
                 font-family: andersonLight;
                 font-size: 12px;
-                color: #BF872C;
+                color: #8e7b54;
                 z-index: 50;
             }
-
+            
+            
             .navi li {
                 display: inline-block;
                 text-decoration: none;
@@ -129,15 +140,15 @@
             }
 
             .navi ul li:hover {
-                border: #BF872C 1px solid;
+                border: #8e7b54 1px solid;
                 padding: 10px;
-                color: #BF872C;
+                color: #8e7b54;
                 cursor: pointer;
             }
 
             .name {
                 font-family: allRounderRegular;
-                color: #fff;
+                color: #8e7b54;
                 text-align: center;
                 font-size: 4rem;
                 margin: 20px;
@@ -147,7 +158,7 @@
                 font-family: andersonBold;
                 font-size: 1.5rem;
                 text-align: center;
-                color: #BF872C;
+                color: #fff;
             }
 
             .headline {
@@ -160,7 +171,7 @@
             .headline h3 {
                 font-family: andersonLight;
                 display: inline-block;
-                color: #BF872C;
+                color: #fff;
                 text-align: center;
                 font-size: 1.3rem;
                 line-height: 4rem;
@@ -169,7 +180,7 @@
 
             .headline h3:nth-child(odd) {
                 font-family: andersonBold;
-                color: #BF872C;
+                color: #fff;
                 text-align: center;
             }
 
@@ -195,7 +206,7 @@
 
             .sectionHead {
                 font-family: allRounderRegular;
-                color: #BF872C;
+                color: #8e7b54;
                 font-size: 2.2rem;
             }
 
@@ -212,7 +223,7 @@
 
             .marks {
                 width: 90%;
-                border: #BF872C solid 2px;
+                border: #8e7b54 solid 2px;
                 margin: auto;
                 top: 50%;
                 transform: translateY(-50%);
@@ -223,14 +234,14 @@
                 font-family: allRounderMedium;
                 font-size: 3rem;
                 position: relative;
-                color: #b6b6b6;
+                color: #3c3c3c;
                 z-index: 5;
                 padding: 10px;
                 margin: auto;
             }
 
             .quote b{
-                color: #BF872C;
+                color: #8e7b54;
                 font-family: allRounderRegular;
             }
             
@@ -257,7 +268,8 @@
                 .containerOne {
                     position: relative;
                     overflow: hidden;
-                    height: 550px;
+                    height: 400px;
+                    width: 100%;
                     object-fit: cover;
                     margin-bottom: 10px;
                     }
@@ -265,7 +277,7 @@
                 .containerTwo {
                     position: relative;
                     overflow: hidden;
-                    height: 550px;
+                    height: 400px;
                     margin-bottom: 10px;
                     }
 
@@ -273,7 +285,7 @@
                     position: relative;
                     overflow: hidden;
                     justify-content: center;
-                    height: 550px;
+                    height: 400px;
                     margin-bottom: 10px;
                     }
 
@@ -281,7 +293,7 @@
                         position: relative;
                         overflow: hidden;
                         justify-content: center;
-                        height: 550px;
+                        height: 400px;
                         margin-bottom: 10px;
                         }
 
@@ -289,7 +301,7 @@
                         position: relative;
                         overflow: hidden;
                         justify-content: center;
-                        height: 550px;
+                        height: 400px;
                         margin-bottom: 10px;
                     }
 
@@ -297,7 +309,7 @@
                         position: relative;
                         overflow: hidden;
                         justify-content: center;
-                        height: 500px;
+                        height: 400px;
                         margin-bottom: 10px;
                     }
 
@@ -359,7 +371,7 @@
                 .projectColumnTwo {
                     display: grid;
                     grid-template-columns: 50% 50%;
-                    gap: 20px;
+                    gap: 50px;
                     width: 90%;
                     margin: auto;
                     justify-content: center;
@@ -372,10 +384,9 @@
 
                     .projectType {
                         font-family: allRounderRegular;
-                        color: #BF872C;
+                        color: #8e7b54;
                         font-size: 2rem;
-                        width: 90%;
-                        margin-bottom: 50px;
+                        width: 94%;
                         margin: auto;
                     }
 
@@ -386,10 +397,6 @@
                     margin-left: 20px;
                     padding-top: 10px;
                     width: 40px;
-                }
-
-                .projectType img:hover {
-                    transform: rotate(90deg);
                 }
 
 /*
@@ -472,7 +479,7 @@
                 display: block;
                 margin-bottom: 20px;
                 text-decoration: none;
-                color: #BF872C;
+                color: #8e7b54;
                 font-family: firaSans-regular;
                 font-size: 1rem;
                 border: none;
@@ -485,8 +492,8 @@
                 font-family: allRounderMedium;
                 font-size: 1rem;
                 padding: 5px;
-                color: #BF872C;
-                border: 1px solid #BF872C;
+                color: #8e7b54;
+                border: 1px solid #8e7b54;
                 background-color: transparent;
                 text-transform: uppercase;
             }
@@ -495,6 +502,8 @@
                 cursor: pointer;
             }
 
+
+            
             .inTouch {
                 font-family: allRounderRegular;
                 color: #fff;
@@ -553,8 +562,8 @@
             
                 .offScreenMenu {
                     display: block;
-                    height: 60vh;
-                    background-color: rgba(146, 116, 23, 0.9);
+                    height: 80vh;
+                    background-color: rgba(60, 60, 60, 0.95);
                     width: 100%;
                     max-width: 560px;
                     position: fixed;
@@ -577,9 +586,9 @@
                     opacity: 0.3;
                     z-index: -5;
                 }
-
+                
 */
-
+           
                 .ham-menu {
                     background-color: #fff;
                     width: 35px;
@@ -594,7 +603,7 @@
                     width: 35px;
                     height: 4px;
                     transition: all 0.5s ease-in-out;
-                    background-color: #BF872C;
+                    background-color: #8e7b54;
                     position: fixed;
                     z-index: 999;
                     top: 20px;
@@ -638,7 +647,7 @@
                     font-family: andersonBold;
                     font-size: 1.5rem;
                     text-align: center;
-                    color: #BF872C;
+                    color: #fff;
                 }
     
                 .headline {
@@ -655,7 +664,7 @@
     
                 .headline h3:nth-child(odd) {
                     font-family: andersonBold;
-                    color: #BF872C;
+                    color: #fff;
                     text-align: center;
                 }
 
@@ -687,6 +696,11 @@
 
              @media only screen and (max-width: 960px) {
 
+                .prvid {
+                    width: 405px;
+                    height: 227.81px;
+                    margin-bottom: 15px;
+                }
 
                 .portfolioFrame {
                     display: grid;
@@ -695,10 +709,12 @@
                     justify-content: center;
                 }
 
-
-
                 #trailer {
                     display: none;
+                }
+
+                .projectType {
+                    width: 90%;
                 }
 
                 .projectType img {
@@ -717,7 +733,6 @@
                     display: grid;
                     grid-template-columns: 100%;
                     gap: 10px;
-                    width: 90%;
                     margin: auto;
                     justify-content: center;
                     margin-bottom: 50px;
@@ -725,9 +740,8 @@
 
                     .projectType {
                         font-family: allRounderRegular;
-                        color: #BF872C;
+                        color: #8e7b54;
                         font-size: 1.2rem;
-                        width: 90%;
                         margin-bottom: 50px;
                         margin: auto;
                     }
