@@ -66,31 +66,30 @@
     transition: ease 1s;
 }
 
+.prvidsm {
+    display: flex;
+    width: 45%;
+    height: 100%;
+}
+
 .displayBox img {
     max-width: 100%;
     margin: auto;
     margin-bottom: 15px;
 }
 
-.displayBox {
-    display: block;
-}
-
-.displayBox video {
+.displayBox .prvid {
     width: 100%;
     margin: auto;
     margin-bottom: 15px;
-    height: auto;
 }
 
-.displayBox iframe {
-    max-width: 1280px;
+.prvidsm iframe {
+    height: 720px;
     width: 100%;
-    margin: auto;
-    min-height: 650px;
-    height: 100%;
-    margin-bottom: 15px;
 }
+
+
 
 #closeModalOne, #closeModalTwo, #closeModalThree, #closeModalFour, #closeModalFive, #closeModalSix, #closeModalSeven, #closeModalEight,
 #closeModalNine, #closeModalTen, #closeModalEleven, #closeModalTwelve, #closeModalEleven, #closeModalTwelve, #closeModalThirteen, #closeModalFourteen, 
