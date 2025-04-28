@@ -72,6 +72,11 @@
     height: 100%;
 }
 
+.prvid {
+    margin-bottom: 30px;
+    height: 550px;
+}
+
 .displayBox img {
     max-width: 100%;
     margin: auto;
@@ -87,6 +92,10 @@
 .prvidsm iframe {
     height: 720px;
     width: 100%;
+}
+
+#contentSixteen .displayBox img {
+    margin-top: 30px;
 }
 
 
