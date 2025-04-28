@@ -144,6 +144,12 @@
 
 @media only screen and (max-width: 960px) {
 
+    .prvid {
+        width: 405px;
+        height: 210px;
+        margin-bottom: 15px;
+    }
+
     .displayBox {
         display: flex;
         flex-wrap: wrap;
