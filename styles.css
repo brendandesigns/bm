@@ -686,11 +686,7 @@
 
              @media only screen and (max-width: 960px) {
 
-                .prvid {
-                    width: 405px;
-                    height: 227.81px;
-                    margin-bottom: 15px;
-                }
+
 
                 .portfolioFrame {
                     display: grid;
