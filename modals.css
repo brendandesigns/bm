@@ -67,31 +67,23 @@
 }
 
 .prvidsm {
-    display: flex;
-    width: 45%;
-    height: 100%;
+    display: flex; 
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
 }
 
-.prvid {
-    margin-bottom: 30px;
-    height: 550px;
+.prvidsm iframe {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    padding: 1rem;
 }
 
 .displayBox img {
     max-width: 100%;
     margin: auto;
-    margin-bottom: 15px;
-}
-
-.displayBox .prvid {
-    width: 100%;
-    margin: auto;
-    margin-bottom: 15px;
-}
-
-.prvidsm iframe {
-    height: 720px;
-    width: 100%;
+    margin-bottom: 2rem;
 }
 
 #contentSixteen .displayBox img {
@@ -143,12 +135,6 @@
 }
 
 @media only screen and (max-width: 960px) {
-
-    .prvid {
-        width: 405px;
-        height: 210px;
-        margin-bottom: 15px;
-    }
 
     .displayBox {
         display: flex;
