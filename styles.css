@@ -519,6 +519,18 @@
             }
 
 
+            .prvid {
+                margin-bottom: 1rem;
+                aspect-ratio: 16 / 9 !important;
+                width: 100% !important;
+            }
+
+            .vidsRatio {
+                aspect-ratio: 16 / 9 !important;
+                width: 100% !important;
+            }
+
+
 
             @media only screen and (max-width: 960px) {
 
@@ -678,6 +690,7 @@
                 .marks {
                     width: 100%;
                 }
+                
 
 
             }
