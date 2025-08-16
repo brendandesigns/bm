@@ -258,7 +258,7 @@
                 .containerOne {
                     position: relative;
                     overflow: hidden;
-                    height: 400px;
+                    height: 350px;
                     width: 100%;
                     object-fit: cover;
                     margin-bottom: 10px;
@@ -267,7 +267,7 @@
                 .containerTwo {
                     position: relative;
                     overflow: hidden;
-                    height: 400px;
+                    height: 350px;
                     margin-bottom: 10px;
                     }
 
@@ -275,7 +275,7 @@
                     position: relative;
                     overflow: hidden;
                     justify-content: center;
-                    height: 400px;
+                    height: 350px;
                     margin-bottom: 10px;
                     }
 
@@ -283,7 +283,7 @@
                         position: relative;
                         overflow: hidden;
                         justify-content: center;
-                        height: 400px;
+                        height: 350px;
                         margin-bottom: 10px;
                         }
 
@@ -291,7 +291,7 @@
                         position: relative;
                         overflow: hidden;
                         justify-content: center;
-                        height: 400px;
+                        height: 350px;
                         margin-bottom: 10px;
                     }
 
@@ -299,14 +299,14 @@
                         position: relative;
                         overflow: hidden;
                         justify-content: center;
-                        height: 400px;
+                        height: 350px;
                         margin-bottom: 10px;
                     }
 
 
                     .containerOne:hover, .containerTwo:hover, .containerThree:hover, 
                     .containerFour:hover, .containerFive:hover, .containerSix:hover {
-                        border: #fff 1px solid;
+                        border: #8e7b54 1px solid;
                         }
             
                 .image {
@@ -341,7 +341,7 @@
                 }
 
                 .text {
-                border: #fff 1px solid;
+                border: #fff 0.5px solid;
                 color: #fff;
                 font-family: allRounderMedium;
                 font-size: 1rem;
@@ -360,8 +360,8 @@
                 
                 .projectColumnTwo {
                     display: grid;
-                    grid-template-columns: 50% 50%;
-                    gap: 50px;
+                    grid-template-columns: 33% 33% 33%;
+                    gap: 20px;
                     width: 90%;
                     margin: auto;
                     justify-content: center;
@@ -376,7 +376,7 @@
                         font-family: allRounderRegular;
                         color: #8e7b54;
                         font-size: 2rem;
-                        width: 94%;
+                        width: 90%;
                         margin: auto;
                     }
 
@@ -733,17 +733,8 @@
                     grid-template-columns: 100%;
                     gap: 10px;
                     margin: auto;
-                    justify-content: center;
                     margin-bottom: 50px;
                 }
-
-                    .projectType {
-                        font-family: allRounderRegular;
-                        color: #8e7b54;
-                        font-size: 1.2rem;
-                        margin-bottom: 50px;
-                        margin: auto;
-                    }
 
                     .sectionHead {
                         font-family: allRounderRegular;
