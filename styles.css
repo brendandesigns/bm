@@ -525,6 +525,14 @@
                 width: 100% !important;
             }
 
+            .prvidsm {
+                margin-bottom: 1rem;
+                aspect-ratio: 9 / 16 !important;
+                width: 33.3% !important;
+                margin: auto;
+            }
+
+
             .vidsRatio {
                 aspect-ratio: 16 / 9 !important;
                 width: 100% !important;
