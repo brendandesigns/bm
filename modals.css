@@ -1,0 +1,234 @@
+    * {
+        transition: ease-in-out 0.5s;
+      }
+
+            @font-face{src: url(fonts/griffithgothic/GriffithGothic_Regular.ttf);
+                font-family: GriffithGothicRegular;  }
+
+            @font-face{src: url(fonts/griffithgothic/Griffith_Gothic_Bold.ttf);
+                font-family: GriffithGothicBold;  }
+        
+            @font-face{src: url(fonts/Cinzel/Cinzel-Regular.ttf);
+                font-family: Cinzel-Regular;  }
+
+            @font-face{src: url(fonts/Cinzel/Cinzel-Bold.ttf);
+                font-family: Cinzel-Bold;  }
+
+            @font-face{src: url(fonts/Cinzel/Cinzel-Regular.ttf);
+                font-family: Cinzel-Regular;  }
+
+
+#contentTwo,  #contentOne, #contentThree, #contentThree, #contentFour, #contentFive,
+#contentSix, #contentSeven, #contentEight, #contentNine, #contentTen, #contentEleven,
+#contentTwelve, #contentThirteen, #contentFourteen, #contentFifteen, #contentSixteen, 
+#contentSeventeen, #contentEighteen { 
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    padding-top: 50px;
+    top: 0;
+    left: 0;
+    max-height: 100%;
+    overflow-y: scroll;
+    width: 100vw;
+    transition: 0.3s ease;
+    z-index: 50;
+    backdrop-filter: blur(10px);
+}
+
+#contentTwo.show, #contentOne.show, #contentThree.show, #contentFour.show,#contentFive.show, #contentSix.show,
+#contentSeven.show, #contentEight.show, #contentNine.show, #contentTen.show, #contentEleven.show, #contentTwelve.show, 
+#contentThirteen.show, #contentFourteen.show, #contentFifteen.show, #contentSixteen.show, #contentSeventeen.show, #contentEighteen.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.displayBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(24, 26, 28, 0.7);
+    backdrop-filter: blur(15px);
+    border: solid 1px #fff;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 3rem;
+    width: 1080px; 
+    max-width: 100%; /* Could be more or less, depending on screen size */
+    animation-duration: 2s;
+    overflow-y: auto;
+    z-index: 50;
+    transition: ease 1s;
+}
+
+.prvidsm {
+    display: flex; 
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
+    margin-bottom: 4rem;
+}
+
+.prvid {
+    margin-bottom: 4rem;
+}
+
+.prvidsm iframe {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    padding: 1rem;
+}
+
+.displayBox img {
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+#contentSixteen .displayBox img {
+    margin-top: 30px;
+}
+
+
+
+#closeModalOne, #closeModalTwo, #closeModalThree, #closeModalFour, #closeModalFive, #closeModalSix, #closeModalSeven, #closeModalEight,
+#closeModalNine, #closeModalTen, #closeModalEleven, #closeModalTwelve, #closeModalEleven, #closeModalTwelve, #closeModalThirteen, #closeModalFourteen, 
+#closeModalFifteen, #closeModalSixteen, #closeModalSeventeen, #closeModalEighteen {
+    cursor: pointer;
+    font-family: Cinzel-Regular;
+    color: #fff;
+    font-size: 2rem;
+    border: #fff 1px solid;
+    padding: 10px 10px 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    left: 94%;
+}
+
+
+    #closeModalOne:hover, #closeModalTwo:hover, #closeModalThree:hover, #closeModalFour:hover, #closeModalFive:hover, #closeModalSix:hover, #closeModalSeven:hover, #closeModalEight:hover,
+    #closeModalNine:hover, #closeModalTen:hover, #closeModalEleven:hover, #closeModalTwelve:hover, #closeModalThirteen:hover, #closeModalFourteen:hover, #closeModalFifteen:hover, 
+    #closeModalSixteen:hover, #closeModalSeventeen:hover, #closeModalEighteen:hover {
+        color: #8e7b54;
+        transition: ease .5s;
+    }
+
+.contentheaders {
+    font-family: Cinzel-Regular;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    
+}
+
+.copy {
+    font-family: GriffithGothicRegular;
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    max-width: 90%;
+}
+
+.tools {
+    font-family: GriffithGothicBold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #fff;
+    margin-bottom: 4rem;
+    width: 90%;
+}
+
+@media only screen and (max-width: 960px) {
+
+
+
+    .prvid {
+    margin-bottom: 1rem;
+}
+
+
+
+.prvidsm {
+    display: flex; 
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
+    flex-direction: column;
+}
+
+.prvidsm iframe {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+
+    .displayBox {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: space-between;
+        margin: 5% auto; /* 15% from the top and centered */
+        padding: 2rem;
+        width: 350px; 
+        max-width: 100%; /* Could be more or less, depending on screen size */
+    }
+    
+    .displayBox img {
+        max-width: 100%;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .displayBox iframe {
+        height: 100%;
+        min-height: 210px;
+    }
+
+    #closeModalOne, #closeModalTwo, #closeModalThree, #closeModalFour, #closeModalFive, #closeModalSix, #closeModalSeven, #closeModalEight,
+    #closeModalNine, #closeModalTen, #closeModalEleven, #closeModalTwelve, #closeModalThirteen, #closeModalFourteen, #closeModalFifteen, 
+    #closeModalSixteen, #closeModalSeventeen, #closeModalEighteen {
+        cursor: pointer;
+        font-family: Cinzel-Regular;
+        color: #fff;
+        font-size: 1rem;
+        border: #fff 0.7px solid;
+        padding: 0 10px 5px 10px;
+        border-radius: 5px;
+        left: 87%;
+    }
+
+
+
+    .contentheaders {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        margin-bottom: 10px;
+        
+    }
+
+
+    
+    .copy {
+        font-family: GriffithGothicRegular;
+        color: #fff;
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .tools {
+        font-size: 0.7rem;
+        margin-bottom: 2rem;
+    }
+
+}
