@@ -7,9 +7,17 @@ const openModalSix = document.getElementById('modalSix');
 const openModalSeven = document.getElementById('modalSeven');
 const openModalEight = document.getElementById('modalEight');
 const openModalNine = document.getElementById('modalNine');
+
+/*
 const openModalTen = document.getElementById('modalTen');
+*/
+
 const openModalEleven = document.getElementById('modalEleven');
+
+/*
 const openModalTwelve = document.getElementById('modalTwelve');
+*/
+
 const openModalThirteen = document.getElementById('modalThirteen');
 
 /*
@@ -35,10 +43,17 @@ const modalContainerSix = document.getElementById('contentSix');
 const modalContainerSeven = document.getElementById('contentSeven');
 const modalContainerEight = document.getElementById('contentEight');
 const modalContainerNine = document.getElementById('contentNine');
+/*
 const modalContainerTen = document.getElementById('contentTen');
+*/
 const modalContainerEleven = document.getElementById('contentEleven');
+
+/*
 const modalContainerTwelve = document.getElementById('contentTwelve');
+*/
+
 const modalContainerThirteen = document.getElementById('contentThirteen');
+
 /*
 const modalContainerFourteen = document.getElementById('contentFourteen');*/
 const modalContainerFifteen = document.getElementById('contentFifteen');
@@ -59,9 +74,17 @@ const closeModalSix = document.getElementById('closeModalSix');
 const closeModalSeven = document.getElementById('closeModalSeven');
 const closeModalEight = document.getElementById('closeModalEight');
 const closeModalNine = document.getElementById('closeModalNine');
+
+/*
 const closeModalTen = document.getElementById('closeModalTen');
+*/
+
 const closeModalEleven = document.getElementById('closeModalEleven');
+
+/*
 const closeModalTwelve = document.getElementById('closeModalTwelve');
+*/
+
 const closeModalThirteen = document.getElementById('closeModalThirteen');
 /*
 const closeModalFourteen = document.getElementById('closeModalFourteen');*/
@@ -113,17 +136,22 @@ openModalNine.addEventListener('click', () => {
     modalContainerNine.classList.add('show');
 });
 
+/*
 openModalTen.addEventListener('click', () => {
     modalContainerTen.classList.add('show');
 });
+*/
 
 openModalEleven.addEventListener('click', () => {
     modalContainerEleven.classList.add('show');
 });
 
+/*
 openModalTwelve.addEventListener('click', () => {
     modalContainerTwelve.classList.add('show');
 });
+*/
+
 
 openModalThirteen.addEventListener('click', () => {
     modalContainerThirteen.classList.add('show');
@@ -186,17 +214,25 @@ closeModalNine.addEventListener('click', () => {
     modalContainerNine.classList.remove('show');
 });
 
+/*
+
 closeModalTen.addEventListener('click', () => {
     modalContainerTen.classList.remove('show');
 });
+
+*/
+
 
 closeModalEleven.addEventListener('click', () => {
     modalContainerEleven.classList.remove('show');
 });
 
+/*
 closeModalTwelve.addEventListener('click', () => {
     modalContainerTwelve.classList.remove('show');
 });
+*/
+
 
 closeModalThirteen.addEventListener('click', () => {
     modalContainerThirteen.classList.remove('show');
