@@ -161,13 +161,18 @@
                 width: 90%;
             }
 
+            .headline img {
+                width: 100%;
+                max-width: 50px;
+            }
+
             .headline h3 {
                 font-family: GriffithGothicRegular;
                 display: inline-block;
                 color: #fff;
                 text-align: center;
                 font-size: 1rem;
-                line-height: 4rem;
+                line-height: 3.5rem;
                 margin: auto;
             }
 
@@ -797,10 +802,16 @@
                     align-items: center;
                     width: 90%;
                 }
+
+            .headline img {
+                width: 100%;
+                max-width: 80px;
+            }
+
     
                 .headline h3 {
                     font-size: 0.7rem;
-                    line-height: 2rem !important;
+                    line-height: 1.8rem !important;
                     display: block;
                 }
     
