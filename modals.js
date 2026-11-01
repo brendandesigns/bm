@@ -1,10 +1,11 @@
+/* USE NO7 for next project */
+
 const openModalOne = document.getElementById('modalOne');
 const openModalTwo = document.getElementById('modalTwo');
 const openModalThree = document.getElementById('modalThree');
 const openModalFour = document.getElementById('modalFour');
 const openModalFive = document.getElementById('modalFive');
 const openModalSix = document.getElementById('modalSix');
-const openModalSeven = document.getElementById('modalSeven');
 const openModalEight = document.getElementById('modalEight');
 const openModalNine = document.getElementById('modalNine');
 
@@ -28,7 +29,6 @@ const modalContainerThree = document.getElementById('contentThree');
 const modalContainerFour = document.getElementById('contentFour');
 const modalContainerFive = document.getElementById('contentFive');
 const modalContainerSix = document.getElementById('contentSix');
-const modalContainerSeven = document.getElementById('contentSeven');
 const modalContainerEight = document.getElementById('contentEight');
 const modalContainerNine = document.getElementById('contentNine');
 const modalContainerEleven = document.getElementById('contentEleven');
@@ -45,7 +45,6 @@ const closeModalThree = document.getElementById('closeModalThree');
 const closeModalFour = document.getElementById('closeModalFour');
 const closeModalFive = document.getElementById('closeModalFive');
 const closeModalSix = document.getElementById('closeModalSix');
-const closeModalSeven = document.getElementById('closeModalSeven');
 const closeModalEight = document.getElementById('closeModalEight');
 const closeModalNine = document.getElementById('closeModalNine');
 const closeModalEleven = document.getElementById('closeModalEleven');
@@ -80,10 +79,6 @@ openModalFive.addEventListener('click', () => {
 
 openModalSix.addEventListener('click', () => {
     modalContainerSix.classList.add('show');
-});
-
-openModalSeven.addEventListener('click', () => {
-    modalContainerSeven.classList.add('show');
 });
 
 openModalEight.addEventListener('click', () => {
@@ -144,10 +139,6 @@ closeModalFive.addEventListener('click', () => {
 
 closeModalSix.addEventListener('click', () => {
     modalContainerSix.classList.remove('show');
-});
-
-closeModalSeven.addEventListener('click', () => {
-    modalContainerSeven.classList.remove('show');
 });
 
 closeModalEight.addEventListener('click', () => {
