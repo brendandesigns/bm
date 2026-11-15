@@ -10,7 +10,7 @@ const openModalEight = document.getElementById('modalEight');
 const openModalNine = document.getElementById('modalNine');
 
 const openModalEleven = document.getElementById('modalEleven');
-
+const openModalTwelve = document.getElementById('modalTwelve');
 const openModalThirteen = document.getElementById('modalThirteen');
 
 const openModalFifteen = document.getElementById('modalFifteen');
@@ -32,6 +32,7 @@ const modalContainerSix = document.getElementById('contentSix');
 const modalContainerEight = document.getElementById('contentEight');
 const modalContainerNine = document.getElementById('contentNine');
 const modalContainerEleven = document.getElementById('contentEleven');
+const modalContainerTwelve = document.getElementById('contentTwelve');
 const modalContainerThirteen = document.getElementById('contentThirteen');
 const modalContainerFifteen = document.getElementById('contentFifteen');
 const modalContainerSixteen = document.getElementById('contentSixteen');
@@ -48,6 +49,7 @@ const closeModalSix = document.getElementById('closeModalSix');
 const closeModalEight = document.getElementById('closeModalEight');
 const closeModalNine = document.getElementById('closeModalNine');
 const closeModalEleven = document.getElementById('closeModalEleven');
+const closeModalTwelve = document.getElementById('closeModalTwelve');
 const closeModalThirteen = document.getElementById('closeModalThirteen');
 const closeModalFifteen = document.getElementById('closeModalFifteen');
 const closeModalSixteen = document.getElementById('closeModalSixteen');
@@ -92,6 +94,11 @@ openModalNine.addEventListener('click', () => {
 openModalEleven.addEventListener('click', () => {
     modalContainerEleven.classList.add('show');
 });
+
+openModalTwelve.addEventListener('click', () => {
+    modalContainerTwelve.classList.add('show');
+});
+
 
 openModalThirteen.addEventListener('click', () => {
     modalContainerThirteen.classList.add('show');
@@ -152,6 +159,10 @@ closeModalNine.addEventListener('click', () => {
 
 closeModalEleven.addEventListener('click', () => {
     modalContainerEleven.classList.remove('show');
+});
+
+closeModalTwelve.addEventListener('click', () => {
+    modalContainerTwelve.classList.remove('show');
 });
 
 
